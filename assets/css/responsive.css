@@ -1,0 +1,148 @@
+@media screen and (max-width:1500px) {
+    .arrow {
+        --arrow-space: 15px;
+    }
+}
+@media screen and (max-width:1400px) {
+    :root{
+        --section-space: 70px;
+    }
+    html {
+        font-size: 14px; 
+    }
+    h1 {
+        font-size: 2.9rem;
+        line-height: 3.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .info-icon-box h2 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .btn {
+        padding: 5px 25px;  
+    }
+    .navbar .navbar-brand img, footer .footer-logo{width: 200px;}
+    .navbar-expand-lg .navbar-nav .nav-item:not(:last-child) {margin-right: 10px;}
+    .our_clients_use .text-wrapper ul li .number {
+        font-family: 'Poppins-SemiBold';
+        font-size: 1.6rem;
+    }
+    .our_clients_use .text-wrapper ul li .number-text {
+        font-family: 'Poppins-Regular';
+        font-size: 0.8rem;
+    }
+    .pricing_list .pricing_list_item {
+        padding: 15px 30px;
+    }
+    .pricing_list .pricing_list_item.list_header p {
+        font-size: 2rem;
+    }
+    footer .footer-list-wrapper ul li:not(:last-child) a.link {
+        margin-bottom: 10px;
+    }
+    footer.footer-section .text-wrapper ul li a {
+        width: 30px;
+        height: 30px;
+    }
+    .contact_form h3 {
+        font-size: 2.0rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    h2 {
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link, .btn {font-size: 0.9rem;}
+    .arrow {
+        top: 60%;
+        width: 30px;
+        height: 30px;
+        --arrow-space: 0;
+    }
+    .info-icon-box {padding: 15px;}
+    .info-icon-box .icon-wrapper img {
+        width: 40px;
+    }
+    :root {
+        --section-space: 50px;
+    }
+}
+@media screen and (max-width:991px) {
+    .pricing_box.active {margin-top: 0;}
+    .contact_form h3 {
+        font-size: 2.0rem;
+    }
+    .banner-section .banner-slide,.banner-section {
+        min-height: 50vh;
+    }
+    .btn {
+        padding: 5px 15px;
+    }
+}
+@media screen and (max-width:767px) {
+    .video-wrapper .play-btn i {
+        font-size: 2.2rem;
+    }
+    .video-wrapper .video-banner .play-btn::before, .video-wrapper .video-banner .play-btn::after{
+        --ellipse-size: 40px;
+    }
+    .pricing_list .pricing_list_item {
+        padding: 10px 25px;
+    }
+    .blog-wrapper .blog-disc h3 a.link {
+        font-size: 1.4rem;
+    }
+    .modal .btn-close {
+        right: 0;
+        top: -35px;
+        font-size: 9px;
+    }
+    .navbar .navbar-brand img {
+        width: 150px;
+    }
+    .slick-dots li button {
+        width: 12px;
+        height: 12px;
+    }
+}
+@media screen and (max-width:575px) {
+    .banner-section .banner-slide {
+        padding: 160px 0 100px;
+    }
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .contact_form h3 {
+        font-size: 1.8rem;
+    }
+    .pricing_list .pricing_list_item.list_header p::first-letter {
+        font-size: 1rem;
+    }
+    .pricing_list .pricing_list_item.list_header p {
+        font-size: 1.4rem;
+    }
+    li.pricing_list_item:nth-child(n+3):nth-child(-n+6) {
+        margin: 0 30px;
+    }
+    .pricing_box {
+        max-width: 249px;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:374px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+}
